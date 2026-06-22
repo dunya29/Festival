@@ -2119,14 +2119,12 @@ p a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  gap: 0.6rem;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 .footer__text,
@@ -2398,6 +2396,10 @@ p a:hover {
   }
 
   .footer__contacts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: end;
     -ms-flex-align: end;
     align-items: flex-end;
@@ -2812,6 +2814,15 @@ p a:hover {
   .modal .btn-cross.modal__close {
     width: 4.4rem;
     height: 4.4rem;
+  }
+
+  .footer__top {
+    gap: 3.2rem;
+  }
+
+  .footer__logo {
+    width: 100%;
+    max-width: 35rem;
   }
 }
 
