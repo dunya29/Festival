@@ -509,14 +509,14 @@ h5,
 }
 
 .text-l {
-  font-size: clamp(3.2rem, 2.62rem + 1.53vw, 3.8rem);
+  font-size: 3.2rem;
 }
 
 h1,
 .h1,
 h2,
 .h2 {
-  font-size: clamp(3.2rem, 2.62rem + 1.53vw, 3.8rem);
+  font-size: 3.2rem;
 }
 
 h3,
@@ -526,7 +526,7 @@ h3,
 
 h4,
 .h4 {
-  font-size: clamp(1.8rem, 1.61rem + 0.51vw, 2rem);
+  font-size: clamp(2rem, 1.53rem + 0.61vw, 2.4rem);
 }
 
 h5,
@@ -1256,7 +1256,7 @@ p a:hover {
 }
 
 .header .main-btn {
-  font-size: clamp(2.4rem, 1.45rem + 2.54vw, 3.4rem);
+  font-size: 2.4rem;
 }
 
 .header.show-menu .header__menu {
@@ -1268,10 +1268,15 @@ p a:hover {
 }
 
 .header--main {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
+  /*  &.scroll {
+       &.unshow {
+           transform: translateY(-100%);
+       }
+   } */
 }
 
 .header--main .header__top .header__row {
@@ -1309,11 +1314,6 @@ p a:hover {
   color: var(--black);
 }
 
-.header--main.scroll.unshow {
-  -webkit-transform: translateY(-100%);
-  transform: translateY(-100%);
-}
-
 .header__row {
   padding: 2rem 0;
   display: -webkit-box;
@@ -1345,7 +1345,7 @@ p a:hover {
 }
 
 .header__access span:first-child {
-  font-size: clamp(3.4rem, 2.45rem + 2.54vw, 4.4rem);
+  font-size: 3.4rem;
 }
 
 .header__access span:last-child {
@@ -1365,7 +1365,7 @@ p a:hover {
 }
 
 .header__nav ul li a {
-  font-size: clamp(2.4rem, 1.45rem + 2.54vw, 3.4rem);
+  font-size: 2.4rem;
   font-family: var(--font-family-heading);
   font-weight: 400;
   line-height: 1;
@@ -1553,7 +1553,7 @@ p a:hover {
 }
 
 .hero .main-btn {
-  font-size: clamp(2.4rem, 1.45rem + 2.54vw, 3.4rem);
+  font-size: 2.4rem;
   min-width: 24.6rem;
 }
 
@@ -2229,11 +2229,6 @@ p a:hover {
     font-size: clamp(3.8rem, 0.71rem + 4.02vw, 6.4rem);
   }
 
-  h4,
-  .h4 {
-    font-size: clamp(2rem, 1.53rem + 0.61vw, 2.4rem);
-  }
-
   .mob-only {
     display: none;
   }
@@ -2573,7 +2568,7 @@ p a:hover {
   }
 
   .header__nav ul li a:hover {
-    font-size: clamp(3.2rem, 2.62rem + 1.53vw, 3.8rem);
+    font-size: 3.2rem;
   }
 
   .header__nav ul li a:hover::before,
@@ -2679,7 +2674,7 @@ p a:hover {
   }
 
   .about .page-content h3 {
-    font-size: clamp(3.2rem, 2.62rem + 1.53vw, 3.8rem);
+    font-size: 3.2rem;
   }
 
   .about .page-content h1,
@@ -2758,7 +2753,7 @@ p a:hover {
   }
 
   .header__nav ul li a {
-    font-size: clamp(3.2rem, 2.62rem + 1.53vw, 3.8rem);
+    font-size: 3.2rem;
   }
 
   .breadcrumbs ul li {

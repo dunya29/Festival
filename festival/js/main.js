@@ -36,7 +36,7 @@ const Utils = {
         init() {
             this.initHeaderHeight()
             this.initCustomScroll()
-            this.initScrollHandlers()
+           // this.initScrollHandlers()
         },
         isIOS: (() => {
             const platform = navigator.platform;
