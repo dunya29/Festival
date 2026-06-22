@@ -1604,6 +1604,11 @@ p a:hover {
   object-fit: cover;
 }
 
+.hero__anim--desktop,
+.hero__anim--tablet {
+  display: none;
+}
+
 .hero__content {
   text-align: center;
   margin-top: 1.6rem;
@@ -2181,6 +2186,10 @@ p a:hover {
 }
 
 @media (min-width: 479.98px) {
+  .hero__anim--mob {
+    display: none;
+  }
+
   .hero:not(:last-child) {
     margin-bottom: calc(3vw + 13rem);
   }
@@ -2418,6 +2427,10 @@ p a:hover {
   .menu-show-btn span,
   .menu-close-btn span {
     min-width: 16.1rem;
+  }
+
+  .hero__anim--desktop {
+    display: block;
   }
 
   .hero:not(:last-child) {
@@ -2838,6 +2851,12 @@ p a:hover {
 @media (max-width: 767.98px) and (min-width: 767.98px) {
   .header__nav ul li a {
     font-size: clamp(3.8rem, 0.71rem + 4.02vw, 6.4rem);
+  }
+}
+
+@media (min-width: 479.98px) and (max-width: 1023.98px) {
+  .hero__anim--tablet {
+    display: block;
   }
 }
 
