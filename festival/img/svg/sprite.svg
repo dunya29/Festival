@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 300">
+    <style>:root>svg{display:none}:root>svg:target{display:block}</style>
+    <svg id="btn-prev" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 16" fill="none">
+        <path d="M10.5601 2.72L6.21339 7.06667C5.70006 7.58 5.70006 8.42 6.21339 8.93333L10.5601 13.28" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+    <svg id="chevron-bot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+        <path d="M22 7L12.7071 16.2929C12.3166 16.6834 11.6834 16.6834 11.2929 16.2929L2 7" />
+    </svg>
+</svg>
