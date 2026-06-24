@@ -1660,6 +1660,12 @@ p a:hover {
   transform: translate(50%, -83.5%);
 }
 
+.about .page-content h1,
+.about .page-content h2,
+.about .page-content h3 {
+  margin-top: 1.2rem;
+}
+
 .about + .section {
   position: relative;
   z-index: 1;
@@ -2695,13 +2701,11 @@ p a:hover {
   .about .page-content h1,
   .about .page-content h2,
   .about .page-content h3 {
-    margin-top: 0.8rem;
+    margin-top: 1rem;
   }
 
-  .about .page-content h1:first-child,
-  .about .page-content h2:first-child,
-  .about .page-content h3:first-child {
-    margin-top: 0;
+  .about__inner {
+    gap: 1rem;
   }
 
   .modal__content {
